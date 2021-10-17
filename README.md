@@ -1,4 +1,25 @@
+# Getting Started
+En caso de utilizar docker:
+
+Descargar la imagen desde docker con el comando docker pull docker.io/patriciohenderson/invera
+
+Si se descarga el repositorio desde github:
+git clone https://github.com/PatricioHenderson/todo-challenge
+
+# launching
+1. Dentro de la carpeta todo-chalenge ejecutar docker-compose up
+2. En un nuevo terminal ejecutar docker exec -it invera bash
+3. cd invera/invera 
+4. Python manage.py makemigrations
+5. Python manage.py migate
+6. Python manage.py createsuperuser
+7. Acceder a http://localhost:8000/admin e ingresar con el usuario y la contraseña creados en el paso anterior
+
+
+
+
 # Invera ToDo-List Challenge (Python/Django Jr-SSr)
+
 
 El propósito de esta prueba es conocer tu capacidad para crear una pequeña aplicación funcional en un límite de tiempo. A continuación, encontrarás las funciones, los requisitos y los puntos clave que debés tener en cuenta durante el desarrollo.
 
